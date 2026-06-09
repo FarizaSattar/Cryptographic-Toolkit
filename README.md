@@ -1,30 +1,31 @@
-````markdown
 # 🔐 Encryptify
 
 <p align="left">
   <img src="https://img.shields.io/badge/language-Python-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/security-Cryptography%20Toolkit-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/type-Educational%20Framework-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/status-Active%20Learning%20Project-orange?style=for-the-badge" />
 </p>
 
 ---
 
 ## 🧠 Modular Cryptographic Systems & Security Analysis Framework
 
-**Encryptify** is a modular Python-based cryptography toolkit designed to demonstrate and experiment with core principles of modern secure communication systems.
+**Encryptify** is a modular, Python-based cryptography toolkit built to demonstrate and experiment with core principles of modern secure communication systems.
 
-It combines **symmetric encryption, hybrid cryptography, and password security analysis tools** into a single extensible framework for learning and prototyping.
+It integrates **symmetric encryption (AES), asymmetric encryption (RSA), hybrid cryptography workflows, and password security analysis tools** into a unified, extensible framework for learning, prototyping, and security exploration.
 
 ---
 
 ## 🚀 Why This Project Stands Out
 
-✔ End-to-end cryptographic pipeline (AES + RSA hybrid model)  
-✔ Modular architecture for easy extension  
-✔ Password strength analysis & vulnerability simulation  
-✔ Hands-on demonstration of real-world security concepts  
-✔ Built for learning, experimentation, and prototyping  
-✔ Clean separation of encryption and analysis layers  
+✔ End-to-end cryptographic pipeline (AES + RSA hybrid architecture)  
+✔ Clean modular design for scalability and extension  
+✔ Password strength analysis with entropy-based evaluation  
+✔ Real-world inspired secure communication flow  
+✔ Educational focus on practical cryptography concepts  
+✔ Separation of encryption, analysis, and utility layers  
+✔ Designed for experimentation and academic use  
 
 ---
 
@@ -33,23 +34,24 @@ It combines **symmetric encryption, hybrid cryptography, and password security a
 ```text
 Encryptify/
 │
-├── aes_encryption/
-├── hybrid_encryption/
-├── password_analysis/
-└── utils/
-````
+├── aes_encryption/        # Symmetric encryption (AES logic)
+├── hybrid_encryption/     # AES + RSA hybrid system
+├── password_analysis/     # Security & strength evaluation
+└── utils/                 # Shared cryptographic utilities
+```
 
 ---
 
 ## 🔄 System Workflow
 
 ```text
-Input Data
+User Input Data
+→ Preprocessing & Validation
 → AES Symmetric Encryption
-→ RSA Key Exchange (Hybrid Layer)
-→ Encrypted Output
-→ Password Strength / Security Analysis Module
-→ Utility Layer (helpers, encoding, validation)
+→ RSA Key Exchange Layer (Hybrid Security)
+→ Encrypted Output Generation
+→ Password Strength & Vulnerability Analysis
+→ Utility Layer (encoding, helpers, validation)
 ```
 
 ---
@@ -57,28 +59,24 @@ Input Data
 ## 🔐 Core Features
 
 ### 🔑 AES Encryption Module
-
-* Symmetric key encryption
-* Fast secure data transformation
-* Block cipher concepts
+- Symmetric encryption implementation
+- Fast and efficient data transformation
+- Block cipher–based conceptual design
 
 ### 🔐 Hybrid Encryption System
-
-* RSA public-key exchange
-* AES payload encryption
-* Secure communication workflow simulation
+- RSA-based secure key exchange
+- AES encryption for payload protection
+- Real-world inspired secure communication pipeline
 
 ### 🧪 Password Security Analysis
-
-* Strength scoring system
-* Entropy-based evaluation
-* Vulnerability pattern detection
+- Entropy-based strength evaluation
+- Pattern recognition for weak passwords
+- Security scoring and risk classification
 
 ### 🧰 Utility Layer
-
-* Encoding helpers
-* Key formatting tools
-* Shared cryptographic utilities
+- Encoding/decoding helpers
+- Key formatting utilities
+- Shared cryptographic operations
 
 ---
 
@@ -97,21 +95,21 @@ print(plaintext)
 
 ## 🧠 Cryptographic Concepts Covered
 
-* AES (Advanced Encryption Standard)
-* RSA Public-Key Cryptography
-* Hybrid Encryption Models
-* Password Entropy Analysis
-* Secure Key Exchange Principles
-* Data Confidentiality & Integrity
+- AES (Advanced Encryption Standard)
+- RSA Public-Key Cryptography
+- Hybrid Encryption Architecture
+- Password Entropy & Strength Analysis
+- Secure Key Exchange Principles
+- Data Confidentiality & Integrity Models
 
 ---
 
 ## 🏗️ Tech Stack
 
-* Python 3.x
-* Cryptography fundamentals
-* Modular system architecture
-* Security-focused design patterns
+- Python 3.x
+- Cryptographic fundamentals
+- Modular software architecture
+- Security-first design principles
 
 ---
 
@@ -139,36 +137,36 @@ Encryptify/
 
 ## 🧪 Security Focus Areas
 
-* Confidentiality through encryption
-* Secure key exchange simulation
-* Password strength evaluation
-* Cryptographic vulnerability awareness
+- Confidentiality through encryption
+- Secure key exchange simulation
+- Password strength evaluation
+- Cryptographic vulnerability awareness
+- Practical security modeling
 
 ---
 
 ## 🎯 Use Cases
 
-* Cryptography learning & education
-* Security prototyping
-* Academic demonstrations
-* Password security testing
-* Hybrid encryption experimentation
+- Cryptography learning & education
+- Security research prototyping
+- Academic demonstrations
+- Password security auditing
+- Hybrid encryption experimentation
 
 ---
 
 ## ⚡ Key Engineering Highlights
 
-* ✔ Modular cryptographic architecture
-* ✔ Separation of encryption layers
-* ✔ AES + RSA hybrid workflow
-* ✔ Security analysis integration
-* ✔ Extensible design for future algorithms
+- ✔ Modular cryptographic architecture
+- ✔ Clear separation of system components
+- ✔ AES + RSA hybrid workflow implementation
+- ✔ Security analysis integration layer
+- ✔ Extensible design for future algorithms
+- ✔ Clean educational code structure
 
 ---
 
 ## 📜 License
 
 MIT License
-
-```
 ```
